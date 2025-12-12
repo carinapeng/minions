@@ -47,7 +47,7 @@ data/
 .DS_Store
 .coverage
 htmlcov/
-.pytest_cache/ 
+.pytest_cache/
 node_modules/
 
 # ChromaDB Persistance
@@ -69,3 +69,17 @@ minions-secure-attestation/
 CLAUDE.md
 
 *.csv
+
+# Experiment results and plots
+*.json
+!experiments/test_data.py
+*.png
+
+# Documentation and paper
+*.md
+!README.md
+*.tex
+*.bib
+
+# Claude Code
+.claude/
